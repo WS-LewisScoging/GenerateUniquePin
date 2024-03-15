@@ -1,0 +1,8 @@
+{
+  "name": "generateUniquePins runner",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node runner.js"
+  }
+}
