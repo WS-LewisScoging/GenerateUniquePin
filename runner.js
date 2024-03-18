@@ -1,4 +1,7 @@
 import generateUniquePinLewis from "./generateUniquePin.js";
+import generateUniquePinLuke from "./GenerateUniquePinLuke.js";
+import generatorJames from "./generatorJames.js";
+import generateUniquePinAnthony from "./generateUniquePinAnthony.js";
 
 if (process.argv.length <= 2) {
   throw new Error("Not enough params");
@@ -7,6 +10,12 @@ if (process.argv.length <= 2) {
 let func = null;
 if (process.argv[2] == "lewis") {
   func = generateUniquePinLewis;
+} else if (process.argv[2] == "luke") {
+  func = generateUniquePinLuke;
+} else if (process.argv[2] == "james") {
+  func = generatorJames;
+} else if (process.argv[2] == "anthony") {
+  func = generateUniquePinAnthony;
 } else {
   throw new Error("Unknown dev");
 }

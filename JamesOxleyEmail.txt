@@ -1,0 +1,26 @@
+Just trying to set up shared Chat GPT account, in the meantime...(obviously first one no good!!)
+
+Creating a set of 20 unique 6-digit PIN numbers that also have a property of error detection (where a single digit error doesn't result in another valid PIN from the set) can be approached by ensuring that each PIN differs from every other PIN in the set by at least two digits. This way, a single digit error won't accidentally match another PIN. Here's a set of such PINs:
+
+1. 123456
+2. 234567
+3. 345678
+4. 456789
+5. 567890
+6. 678901
+7. 789012
+8. 890123
+9. 901234
+10. 012345
+11. 135792
+12. 246801
+13. 357902
+14. 468013
+15. 579124
+16. 680235
+17. 791346
+18. 802457
+19. 913568
+20. 024679
+
+Each PIN in this list has been designed to ensure that changing any single digit won't result in another PIN from the list, adhering to the requirement for a degree of error detection through uniqueness.
